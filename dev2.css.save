@@ -1,0 +1,118 @@
+
+.sub-menu {
+    padding-top: 0.75em;
+}
+.site-header > .wrap {
+    padding: 10px 0;
+}
+.current-menu-parent a, .current-menu-ancestor a {
+    color: #005dab;
+}
+a.submit-app-link {
+    color: #fff !important;
+}
+.header-image .site-title > a {
+    min-height: 0px;
+}
+.site-title a {
+   margin: 0.2em 0 0 0;
+}
+.work-with-us .blue-contact{
+	padding: 1em !important;
+}
+.cross{
+    background-color: transparent;
+    background-image: url(images/cross.png) !important;
+    cursor: pointer;
+    padding: 0 0px 0 0px;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 50% !important;
+    border-style: none !important;
+
+
+}
+.show-menu .search-field{
+
+    width: 210% !important;
+
+}
+.bop-nav-search:after, .bop-nav-search:before {
+    bottom: 0;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.site-header .wrap{
+    min-height: 68px !important;
+}
+@media only screen and (max-width: px){
+	.site-header .wrap{
+		display: flex;
+		padding: 0px !important;
+	}
+	.after-entry, .archive-description, .author-box, .comment-respond, .entry, .entry-comments, .entry-pings, .sidebar .widget {
+    		padding: 15px;
+    		margin-bottom: 5%;
+	}
+}
+
+@media only screen and (max-width: 1023px){
+ul#menu-main-menu {
+	margin-left: -53% !important;
+}
+
+nav#genesis-nav-primary {
+    margin-left: -85%;
+}
+nav#genesis-nav-primary a {
+    color: #005dab !important;
+    font-weight: 600;
+    margin: 1em 0em;
+}
+button.sub-menu-toggle.dashicons-before.dashicons-arrow-down {
+   /* display: none;*/
+}
+.genesis-nav-menu .sub-menu li:first-child a {
+    background-image: url('') !important; 
+    padding-top: 1px !important;
+}
+.menu-item .fa.fa-angle-down{
+    display: none;
+}
+
+.sub-menu-toggle {
+    float: right;
+    padding: 10px 0;
+    position: absolute;
+    right: 5%;
+    top: 0;
+    z-index: 100;
+    margin: auto;
+    width: 30px;
+    color: #005dab !iMportant;
+}
+ul.sub-menu {
+    text-align: center !important;
+    margin-left: 0px !important;
+    border-top: solid 1px #005dab !important;
+}
+ul.sub-menu li a {
+    margin: 0.5em 0em !important;
+    padding: 0em !important;
+}
+.bop-nav-search, #menu-item-352 {
+    padding: 10px 0px !important;
+    margin-left: 2.5em;
+}
+button#mobile-genesis-nav-primary {
+    padding: 16px 0px;
+    font-size: 1em;
+    /* width: 81px; */
+}
+.dashicons, .dashicons-before:before {
+    font-size: 30px;
+}
+}

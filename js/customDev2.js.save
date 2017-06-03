@@ -1,0 +1,18 @@
+jQuery( document ).ready(function() {
+	if ($(window).width() < 960) {
+   alert('Less than 960');
+}
+else	 {
+   		alert('More than 960');
+	}
+	/*console.log(jQuery(".nav-primary").html());
+	//jQuery("#mobile-genesis-nav-primary").empty();
+	//alert('menu');
+	//dashicons-menu
+	//jQuery("#genesis-nav-primary").appendTo('.site-header');
+	//jQuery("#bop-nav-search").appendTo('.wrap');
+
+	//bop-nav-search*/
+	jQuery("form.bop-nav-search").insertAfter('.title-area');
+})
+

@@ -1,0 +1,34 @@
+jQuery( document ).ready(function() {
+
+
+  // Handler for .ready() called.
+	
+	$ = jQuery;
+
+  jQuery( ".bop-nav-search" ).on( "click", function() {
+    jQuery( ".bop-nav-search" ).addClass( "show-menu" );
+    jQuery( "#menu-main-menu" ).addClass( "top-bar-menu" );
+    jQuery( "#menu-main-menu" ).removeClass( "hide-search" );
+    jQuery( ".bop-nav-search" ).insert
+    jQuery( ".search-field" ).addClass( "cross" );
+    jQuery( ".search-field" ).focus();
+
+  });
+  jQuery( ".search-field" ).focusout(function() {
+
+  /*  jQuery( ".bop-nav-search" ).removeClass( "show-menu" );
+    jQuery( "#menu-main-menu" ).removeClass( "top-bar-menu" );
+    jQuery( "#menu-main-menu" ).addClass( "hide-search" );
+
+    jQuery( ".search-field" ).removeClass( "cross" );
+*/  });
+
+
+});
+
+/*jQuery( ".bop-nav-search" ).on( "click", function() {
+  alert('click');
+});*//*
+jQuery( ".bop-nav-search" ).click(function() {
+  alert( "Handler for .click() called." );
+});*/
